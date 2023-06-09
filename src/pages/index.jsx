@@ -12,8 +12,8 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import ib from '@/images/logos/IB.svg'
-import kojimachi from '@/images/logos/kojimachi.svg'
+import ib from '@/images/logos/IB.png'
+import kojimachi from '@/images/logos/kojimachi.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
