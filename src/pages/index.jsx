@@ -227,7 +227,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          JianyueHugo - Server Developer, Translater, Game Player, and Student
+          JianyueHugo - Server Developer, Translator, Game Player, and Student
         </title>
         <meta
           name="description"
