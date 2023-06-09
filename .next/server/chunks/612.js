@@ -66,17 +66,17 @@ function ArticlesIndex({ articles  }) {
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
-                        children: "Articles - Spencer Sharp"
+                        children: "Articles - JianyueHugo"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         name: "description",
-                        content: "All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order."
+                        content: "All my thoughts and experience of programming, server development and translation"
                     })
                 ]
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_SimpleLayout__WEBPACK_IMPORTED_MODULE_3__/* .SimpleLayout */ .X, {
-                title: "Writing on software design, company building, and the aerospace industry.",
-                intro: "All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order.",
+                title: "Some Expression & Share",
+                intro: "All my thoughts and experience of programming, server development and translation",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     className: "md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40",
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {

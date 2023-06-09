@@ -5,17 +5,7 @@ exports.id = 405;
 exports.ids = [405,91];
 exports.modules = {
 
-/***/ 2550:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/planetaria.ecd81ade.svg","height":32,"width":32,"blurWidth":0,"blurHeight":0});
-
-/***/ }),
-
-/***/ 1201:
+/***/ 4276:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -67,24 +57,14 @@ var Card = __webpack_require__(9537);
 var Container = __webpack_require__(5649);
 // EXTERNAL MODULE: ./src/components/SocialIcons.jsx
 var SocialIcons = __webpack_require__(7643);
-;// CONCATENATED MODULE: ./src/images/logos/airbnb.svg
-/* harmony default export */ const airbnb = ({"src":"/_next/static/media/airbnb.b4000690.svg","height":28,"width":28,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./src/images/logos/facebook.svg
-/* harmony default export */ const facebook = ({"src":"/_next/static/media/facebook.dd9e7d48.svg","height":28,"width":28,"blurWidth":0,"blurHeight":0});
-// EXTERNAL MODULE: ./src/images/logos/planetaria.svg
-var planetaria = __webpack_require__(2550);
-;// CONCATENATED MODULE: ./src/images/logos/starbucks.svg
-/* harmony default export */ const starbucks = ({"src":"/_next/static/media/starbucks.4a5bd050.svg","height":28,"width":28,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./src/images/photos/image-1.jpg
-/* harmony default export */ const image_1 = ({"src":"/_next/static/media/image-1.c5d2141c.jpg","height":5616,"width":3744,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAgABQMBIgACEQEDEQH/xAAnAAEAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAAA0//xAAbEAABBAMAAAAAAAAAAAAAAAAEAQIDMgAGEv/aAAgBAQABPwAve+5lQcAWWJKufbP/xAAWEQEBAQAAAAAAAAAAAAAAAAABAAL/2gAIAQIBAT8AdJf/xAAXEQADAQAAAAAAAAAAAAAAAAABAhEA/9oACAEDAQE/AFRSLN//2Q==","blurWidth":5,"blurHeight":8});
-;// CONCATENATED MODULE: ./src/images/photos/image-2.jpg
-/* harmony default export */ const image_2 = ({"src":"/_next/static/media/image-2.3c6c01cf.jpg","height":2624,"width":3936,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABgEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAIwE/wD/xAAdEAABBAIDAAAAAAAAAAAAAAACAQQREgADBRMh/9oACAEBAAE/AB4xqbc93WKVSax5n//EABoRAAAHAAAAAAAAAAAAAAAAAAABAgMRIVH/2gAIAQIBAT8AatJzo//EABgRAQADAQAAAAAAAAAAAAAAAAEAAgNS/9oACAEDAQE/ANlLAcz/2Q==","blurWidth":8,"blurHeight":5});
-;// CONCATENATED MODULE: ./src/images/photos/image-3.jpg
-/* harmony default export */ const image_3 = ({"src":"/_next/static/media/image-3.454151b1.jpg","height":3840,"width":5760,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAnAAEBAAAAAAAAAAAAAAAAAAAABQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAAqAf/xAAbEAACAgMBAAAAAAAAAAAAAAABAwIFAAQTEv/aAAgBAQABPwBj31Ggy27tcUGU+Bn5WSc//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPwB//8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAIAQMBAT8Ar//Z","blurWidth":8,"blurHeight":5});
-;// CONCATENATED MODULE: ./src/images/photos/image-4.jpg
-/* harmony default export */ const image_4 = ({"src":"/_next/static/media/image-4.5c6d0ed6.jpg","height":3000,"width":2400,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAgABgMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABgEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAKAMf//EAB0QAAIBBAMAAAAAAAAAAAAAAAECBAADBQYSI0H/2gAIAQEAAT8ATJ66sazJYluahepGcg+g1//EABcRAAMBAAAAAAAAAAAAAAAAAAACElH/2gAIAQIBAT8AttP/xAAXEQADAQAAAAAAAAAAAAAAAAAAAQNS/9oACAEDAQE/AFCWEf/Z","blurWidth":6,"blurHeight":8});
-;// CONCATENATED MODULE: ./src/images/photos/image-5.jpg
-/* harmony default export */ const image_5 = ({"src":"/_next/static/media/image-5.6c6f2784.jpg","height":2384,"width":4240,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAQACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABQEBAQAAAAAAAAAAAAAAAAAABAX/2gAMAwEAAhADEAAAAIoDV//EABsQAAICAwEAAAAAAAAAAAAAAAEDAhEABAUx/9oACAEBAAE/ANPnpbANnNlgV6KojP/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oACAECAQE/AK//xAAXEQADAQAAAAAAAAAAAAAAAAAAAkFx/9oACAEDAQE/AK2n/9k=","blurWidth":8,"blurHeight":4});
+;// CONCATENATED MODULE: ./src/images/logos/ib.png
+/* harmony default export */ const ib = ({"src":"/_next/static/media/ib.8b22cc48.png","height":28,"width":28,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABCklEQVR42mMAg4VPeBnmPJbPP/HOXGPfaxWGLW/4GOBg1kPuzCNvdDY8+Lr08tufz259+P089/jbZbVnPykydDxiYWAIuC7+6effBWdefv9/6/2v/zdefPnPNuPC/7aNV+cxnPkvzlB7/K3T////X97/8Ov//nuf/iw5fP+Pc/32//GtW551nv/kxDDx/EfXG6++vZp36OH/fRef/Vmx8/KfrQev/tdJmP143s0fpgwMZ/6Jp6+7uUiwbOv/GatO/G+du/9/05Qt/4PqV8/M+v+fF+zOC2//i1QtOLbSKW/xi4DCBc+CGtbOKT73Q5dhxTMk33z7zzX32jezSRc+Wwa9+C/OsOwpWDcA2MeUVtbFXF8AAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
+;// CONCATENATED MODULE: ./src/images/logos/kojimachi.png
+/* harmony default export */ const kojimachi = ({"src":"/_next/static/media/kojimachi.ff0b6024.png","height":28,"width":28,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA+klEQVR42jWOQUrDUBRF/8AdOHIBjt2ESygOtILDugQLdglZgQVNMa0dmaQGkxgJhdb+b/JN07QoIRQnIuLMkdbk+j7YO3vv3vveYf/a1PUL1zSvvy3LfDaMy3Paba3N7SC4+4zjRyyXBfL8BVEkEIb3X7Xa3g7rdo2RlBGyLP0dDkMEgV9Op0+rJJHQNM1h4/EIRZFX9AK9noFOR0e7fYbFIqs4n4DZtvWj0q57i1brFM3mCfr9K8znM/i+t2KDgf2uAsRQ0nl4nguayzRNQGwfjLTL+QMxzCBlXBFLpdpCTEDePlOq1w8PHOfmVQiugqr51mgcHwHY+AMD3638GOyy8QAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
+;// CONCATENATED MODULE: ./src/images/photos/image_1.jpg
+/* harmony default export */ const image_1 = ({"src":"/_next/static/media/image_1.88ea2c89.jpg","height":1080,"width":1920,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABQEBAQAAAAAAAAAAAAAAAAAABAX/2gAMAwEAAhADEAAAAKInr//EAB0QAAEEAgMAAAAAAAAAAAAAAAIBAwQRAAYSEyH/2gAIAQEAAT8AgbFIOd1m0FNiqFXnLP/EABsRAAAHAQAAAAAAAAAAAAAAAAABAgMEESJB/9oACAECAQE/AEyHqLfB/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAECIf/aAAgBAwEBPwC4lPEf/9k=","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./src/images/photos/banner.jpg
+/* harmony default export */ const banner = ({"src":"/_next/static/media/banner.bd0a64d2.jpg","height":1080,"width":1920,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABwEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAJ0GP//EABsQAAIBBQAAAAAAAAAAAAAAAAECAwAFESFR/9oACAEBAAE/ABdpN4iQN2v/xAAZEQABBQAAAAAAAAAAAAAAAAABAAISQpH/2gAIAQIBAT8Am8WOr//EABkRAAEFAAAAAAAAAAAAAAAAAAEAAhJCkf/aAAgBAwEBPwCLTUYv/9k=","blurWidth":8,"blurHeight":5});
 // EXTERNAL MODULE: ./src/lib/formatDate.js
 var formatDate = __webpack_require__(3652);
 ;// CONCATENATED MODULE: external "react-dom/server"
@@ -109,12 +89,12 @@ async function generateRssFeed() {
     let articles = await (0,getAllArticles/* getAllArticles */.z)();
     let siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
     let author = {
-        name: "Spencer Sharp",
-        email: "spencer@planetaria.tech"
+        name: "JianyueHugo",
+        email: "valor@jianyuelab.cc"
     };
     let feed = new external_feed_namespaceObject.Feed({
         title: author.name,
-        description: "Your blog description",
+        description: "Blog of JianyueHugo",
         author,
         id: siteUrl,
         link: siteUrl,
@@ -174,11 +154,6 @@ async function generateRssFeed() {
 
 
 
-
-
-
-
-
 function MailIcon(props) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
         viewBox: "0 0 24 24",
@@ -222,12 +197,12 @@ function BriefcaseIcon(props) {
     });
 }
 function ArrowDownIcon(props) {
-    return /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+    return /*#__PURE__*/ _jsx("svg", {
         viewBox: "0 0 16 16",
         fill: "none",
         "aria-hidden": "true",
         ...props,
-        children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+        children: /*#__PURE__*/ _jsx("path", {
             d: "M4.75 8.75 8 12.25m0 0 3.25-3.5M8 12.25v-8.5",
             strokeWidth: "1.5",
             strokeLinecap: "round",
@@ -311,35 +286,21 @@ function Newsletter() {
 function Resume() {
     let resume = [
         {
-            company: "Planetaria",
-            title: "CEO",
-            logo: planetaria/* default */.Z,
-            start: "2019",
+            company: "Kojimachi Junior High School",
+            title: "Student",
+            logo: kojimachi,
+            start: "2022",
             end: {
                 label: "Present",
                 dateTime: new Date().getFullYear()
             }
         },
         {
-            company: "Airbnb",
-            title: "Product Designer",
-            logo: airbnb,
-            start: "2014",
-            end: "2019"
-        },
-        {
-            company: "Facebook",
-            title: "iOS Software Engineer",
-            logo: facebook,
-            start: "2011",
-            end: "2014"
-        },
-        {
-            company: "Starbucks",
-            title: "Shift Supervisor",
-            logo: starbucks,
-            start: "2008",
-            end: "2011"
+            company: "Shanghai Shangde Experimental School",
+            title: "Student",
+            logo: ib,
+            start: "2017",
+            end: "2022"
         }
     ];
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -418,17 +379,6 @@ function Resume() {
                             })
                         ]
                     }, roleIndex))
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Button, {
-                href: "#",
-                variant: "secondary",
-                className: "group mt-6 w-full",
-                children: [
-                    "Download CV",
-                    /*#__PURE__*/ jsx_runtime_.jsx(ArrowDownIcon, {
-                        className: "h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50"
-                    })
-                ]
             })
         ]
     });
@@ -447,10 +397,7 @@ function Photos() {
             className: "-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8",
             children: [
                 image_1,
-                image_2,
-                image_3,
-                image_4,
-                image_5
+                banner
             ].map((image, imageIndex)=>/*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: external_clsx_default()("relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl", rotations[imageIndex % rotations.length]),
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
@@ -469,11 +416,11 @@ function Home({ articles  }) {
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                        children: "Spencer Sharp - Software designer, founder, and amateur astronaut"
+                        children: "JianyueHugo - Server Developer, Translator, Game Player, and Student"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         name: "description",
-                        content: "I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+                        content: "I am JianyueHugo, aka Valor, a student and a developer in Tokyo. I am an intern member of the translation group of TecoStudio(www.tecostudio.cn)."
                     })
                 ]
             }),
@@ -484,34 +431,29 @@ function Home({ articles  }) {
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                             className: "text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl",
-                            children: "Software designer, founder, and amateur astronaut."
+                            children: "Server Developer, Translator, Game Player and Student"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             className: "mt-6 text-base text-zinc-600 dark:text-zinc-400",
-                            children: "I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+                            children: "I am JianyueHugo, aka Valor, a student and a developer in Tokyo. I am an intern member of the translation group of TecoStudio(www.tecostudio.cn)."
                         }),
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                             className: "mt-6 flex gap-6",
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx(SocialLink, {
-                                    href: "https://twitter.com",
+                                    href: "https://twitter.com/jianyuehugo",
                                     "aria-label": "Follow on Twitter",
                                     icon: SocialIcons/* TwitterIcon */.Zm
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx(SocialLink, {
-                                    href: "https://instagram.com",
+                                    href: "https://www.instagram.com/jianyuehugo/",
                                     "aria-label": "Follow on Instagram",
                                     icon: SocialIcons/* InstagramIcon */.yu
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx(SocialLink, {
-                                    href: "https://github.com",
+                                    href: "https://github.com/ferrijianyue",
                                     "aria-label": "Follow on GitHub",
                                     icon: SocialIcons/* GitHubIcon */.fy
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx(SocialLink, {
-                                    href: "https://linkedin.com",
-                                    "aria-label": "Follow on LinkedIn",
-                                    icon: SocialIcons/* LinkedInIcon */.nI
                                 })
                             ]
                         })
@@ -746,7 +688,7 @@ module.exports = require("path");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [664,636,675,649,537,643,165], () => (__webpack_exec__(1201)));
+var __webpack_exports__ = __webpack_require__.X(0, [664,636,675,649,537,643,165], () => (__webpack_exec__(4276)));
 module.exports = __webpack_exports__;
 
 })();

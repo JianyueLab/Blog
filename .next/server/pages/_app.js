@@ -11,7 +11,7 @@ exports.modules = {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/avatar.51a13c67.jpg","height":512,"width":512,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAgACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABAEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAKBH/8QAHxAAAQMDBQAAAAAAAAAAAAAAAgMEEQABEgUUM1Fh/9oACAEBAAE/ANjqTUzNy2erJgOSIX4xwGJi3ftf/8QAFxEBAAMAAAAAAAAAAAAAAAAAAgASMf/aAAgBAgEBPwChWz//xAAYEQACAwAAAAAAAAAAAAAAAAABEQACUf/aAAgBAwEBPwA3ISyf/9k=","blurWidth":8,"blurHeight":8});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/avatar.f1f64a9c.jpg","height":720,"width":720,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAgACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABgEBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAL8K/8QAHhAAAQQBBQAAAAAAAAAAAAAAAgEDBRIxAAQRE2L/2gAIAQEAAT8AmRM5SH6ty+2rbwqdHKpUvODxxr//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/AH//xAAWEQEBAQAAAAAAAAAAAAAAAAABADH/2gAIAQMBAT8AcL//2Q==","blurWidth":8,"blurHeight":8});
 
 /***/ }),
 
@@ -59,12 +59,12 @@ function Footer() {
                                         children: "Projects"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(NavLink, {
-                                        href: "/speaking",
-                                        children: "Speaking"
+                                        href: "/collection",
+                                        children: "Collection"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(NavLink, {
-                                        href: "/uses",
-                                        children: "Uses"
+                                        href: "/other",
+                                        children: "Other"
                                     })
                                 ]
                             }),
@@ -73,7 +73,7 @@ function Footer() {
                                 children: [
                                     "\xa9 ",
                                     new Date().getFullYear(),
-                                    " Spencer Sharp. All rights reserved."
+                                    " JianyueLab. All rights reserved."
                                 ]
                             })
                         ]
@@ -265,12 +265,12 @@ function MobileNavigation(props) {
                                                 children: "Projects"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MobileNavItem, {
-                                                href: "/speaking",
-                                                children: "Speaking"
+                                                href: "/collection",
+                                                children: "Collections"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MobileNavItem, {
-                                                href: "/uses",
-                                                children: "Uses"
+                                                href: "/other",
+                                                children: "Other"
                                             })
                                         ]
                                     })
@@ -317,12 +317,12 @@ function DesktopNavigation(props) {
                     children: "Projects"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(NavItem, {
-                    href: "/speaking",
-                    children: "Speaking"
+                    href: "/collection",
+                    children: "Collections"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(NavItem, {
-                    href: "/uses",
-                    children: "Uses"
+                    href: "/other",
+                    children: "Other"
                 })
             ]
         })

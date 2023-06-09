@@ -65,16 +65,9 @@ var map = {
 		803,
 		612
 	],
-	"./crafting-a-design-system-for-a-multiplanetary-future/index.mdx": [
-		8039,
-		636,
-		675,
-		295,
-		39
-	],
-	"./crafting-a-design-system-for-a-multiplanetary-future/planetaria-design-system.png": [
-		904,
-		904
+	"./first_day_of_new_blog.mdx": [
+		9143,
+		143
 	],
 	"./index": [
 		3612,
@@ -85,16 +78,6 @@ var map = {
 		3612,
 		803,
 		612
-	],
-	"./introducing-animaginary.mdx": [
-		9825,
-		295,
-		825
-	],
-	"./rewriting-the-cosmos-kernel-in-rust.mdx": [
-		4129,
-		295,
-		129
 	]
 };
 function webpackAsyncContext(req) {

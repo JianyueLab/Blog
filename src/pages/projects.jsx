@@ -10,7 +10,7 @@ const projects = [
     name: 'ChatGPT (ChatBot)',
     description:
       'FREE CHATGPT, PASSWORD: "jianyuelab.cc"',
-    link: { href: 'https://chat.jianeyualab.cc', label: 'jianyuelab.cc' },
+    link: { href: 'https://chat.jianyuelab.cc', label: 'jianyuelab.cc' },
     logo: nextweb,
   },
 ]

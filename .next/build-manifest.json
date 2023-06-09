@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/m71kcf0nTFhhbbodO-CBk/_buildManifest.js",
-    "static/m71kcf0nTFhhbbodO-CBk/_ssgManifest.js"
+    "static/gdnaZvVM_DcfuTgV98bFn/_buildManifest.js",
+    "static/gdnaZvVM_DcfuTgV98bFn/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -14,14 +14,14 @@
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/index-70ef4a6d2874c338.js"
+      "static/chunks/pages/index-d08ab2b17085e508.js"
     ],
     "/_app": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/css/628f820f98fcce31.css",
-      "static/chunks/pages/_app-b37ddc95be943d93.js"
+      "static/css/20437f78ad186562.css",
+      "static/chunks/pages/_app-44903bd2df271e0a.js"
     ],
     "/_error": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
@@ -33,55 +33,43 @@
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/about-eb7d58f0be0901b6.js"
+      "static/chunks/pages/about-94571e0931bd2017.js"
     ],
     "/articles": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/articles-a414bb615063e88a.js"
+      "static/chunks/pages/articles-e8c234ad55a69565.js"
     ],
-    "/articles/crafting-a-design-system-for-a-multiplanetary-future": [
+    "/articles/first_day_of_new_blog": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/articles/crafting-a-design-system-for-a-multiplanetary-future-0f485ca23074dbc7.js"
+      "static/chunks/pages/articles/first_day_of_new_blog-ef2199b9e2bb0c39.js"
     ],
-    "/articles/introducing-animaginary": [
+    "/collection": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/articles/introducing-animaginary-d621833a5c1ec923.js"
+      "static/chunks/pages/collection-b5a9307d750b8d22.js"
     ],
-    "/articles/rewriting-the-cosmos-kernel-in-rust": [
+    "/other": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/articles/rewriting-the-cosmos-kernel-in-rust-75c3028c323b22eb.js"
+      "static/chunks/pages/other-8da5a091c0405b95.js"
     ],
     "/projects": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/projects-91211e6d853e0b0f.js"
-    ],
-    "/speaking": [
-      "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/speaking-181bc0477f7f47c3.js"
+      "static/chunks/pages/projects-f4f2162b31802274.js"
     ],
     "/thank-you": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
       "static/chunks/pages/thank-you-0e64dff462158817.js"
-    ],
-    "/uses": [
-      "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/uses-8bbd7abc2802f7b4.js"
     ]
   },
   "ampFirstPages": []
