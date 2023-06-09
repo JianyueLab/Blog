@@ -3,17 +3,17 @@ import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 
+import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
   InstagramIcon,
+  LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-
-import IB from '@/images/logos/IB.svg'
+import ib from '@/images/logos/ib.svg'
 import kojimachi from '@/images/logos/kojimachi.svg'
-
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -22,6 +22,29 @@ import image5 from '@/images/photos/image-5.jpg'
 import { formatDate } from '@/lib/formatDate'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
+
+function MailIcon(props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <path
+        d="M2.75 7.75a3 3 0 0 1 3-3h12.5a3 3 0 0 1 3 3v8.5a3 3 0 0 1-3 3H5.75a3 3 0 0 1-3-3v-8.5Z"
+        className="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
+      />
+      <path
+        d="m4 6 6.024 5.479a2.915 2.915 0 0 0 3.952 0L20 6"
+        className="stroke-zinc-400 dark:stroke-zinc-500"
+      />
+    </svg>
+  )
+}
 
 function BriefcaseIcon(props) {
   return (
@@ -88,7 +111,7 @@ function Resume() {
       company: 'Kojimachi Junior High School',
       title: 'Student',
       logo: kojimachi,
-      start: '2023',
+      start: '2022',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
@@ -97,7 +120,7 @@ function Resume() {
     {
       company: 'Shanghai Shangde Experimental School',
       title: 'Student',
-      logo: IB,
+      logo: ib,
       start: '2017',
       end: '2022',
     },
@@ -143,6 +166,10 @@ function Resume() {
           </li>
         ))}
       </ol>
+      <Button href="#" variant="secondary" className="group mt-6 w-full">
+        Download CV
+        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+      </Button>
     </div>
   )
 }
