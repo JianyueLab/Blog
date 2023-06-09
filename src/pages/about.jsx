@@ -42,10 +42,6 @@ export default function About() {
     <>
       <Head>
         <title>About - JianyueHugo</title>
-        <meta
-          name="description"
-          content="I’m Spencer Sharp. I live in New York City, where I design the future."
-        />
       </Head>
       <Container className="mt-16 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
@@ -69,6 +65,9 @@ export default function About() {
               </p>
               <p>
                 I would also like to translate some good projects into Chinese, so that more and more people can understand and get involved with technologies and do more.
+              </p>
+              <p>
+              I'm also a game player, such as Minecraft, Conter-strike: Global Offensive, Rust, Escape From Tarkov. I really like to work or participate in their community.
               </p>
               <p>
                 Overall, I think after I work hard and study, I can go to a nice university and make more and more people's lives better.
