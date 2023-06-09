@@ -12,7 +12,7 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import ib from '@/images/logos/IB.png'
+import ib from '@/images/logos/ib.png'
 import kojimachi from '@/images/logos/kojimachi.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
