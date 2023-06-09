@@ -2,7 +2,7 @@ import ReactDOMServer from 'react-dom/server'
 import { MemoryRouterProvider } from 'next-router-mock/MemoryRouterProvider'
 import { Feed } from 'feed'
 import { mkdir, writeFile } from 'fs/promises'
-
+import favicon from '@/images/avatar.jpg'
 import { getAllArticles } from './getAllArticles'
 
 export async function generateRssFeed() {
@@ -19,8 +19,8 @@ export async function generateRssFeed() {
     author,
     id: siteUrl,
     link: siteUrl,
-    image: `${siteUrl}/favicon.ico`,
-    favicon: `${siteUrl}/favicon.ico`,
+    image: favicon,
+    favicon: favicon.ico,
     copyright: `All rights reserved ${new Date().getFullYear()}`,
     feedLinks: {
       rss2: `${siteUrl}/rss/feed.xml`,
