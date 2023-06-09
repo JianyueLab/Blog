@@ -25,6 +25,18 @@ function Tool({ title, href, children }) {
   )
 }
 
+function Appearance({ title, description, event, cta, href }) {
+  return (
+    <Card as="article">
+      <Card.Title as="h3" href={href}>
+        {title}
+      </Card.Title>
+      <Card.Description>{description}</Card.Description>
+      <Card.Cta>{cta}</Card.Cta>
+    </Card>
+  )
+}
+
 export default function Uses() {
   return (
     <>
@@ -70,13 +82,19 @@ export default function Uses() {
               Easy app for project
             </Tool>
           </ToolsSection>
-          <ToolsSection title="Links" href="https://inuebisu.cn">
-            <Tool title="inuebisu">
-              Blog of inuebisu, nice guy. REALLY FRIENDLY.
-            </Tool>
-            <Tool title="TecoStudio" href="https://www.tecostudio.cn">
-              A group of people who love Minecraft and working for community.
-            </Tool>
+          <ToolsSection title="Links">
+            <Appearance
+              href="https://inuebisu.cn"
+              title="inuebisu"
+              description="NICE and FRIENDLY guy"
+              cta="Link"
+            />
+            <Appearance
+              href="https://www.tecostudio.cn"
+              title="TecoStuio"
+              description="A group of people who love Minecraft and working for it's community."
+              cta="Link"
+            />
           </ToolsSection>
         </div>
       </SimpleLayout>
