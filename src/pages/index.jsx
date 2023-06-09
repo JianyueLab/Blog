@@ -9,7 +9,6 @@ import { Container } from '@/components/Container'
 import {
   GitHubIcon,
   InstagramIcon,
-  LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
 import ib from '@/images/logos/ib.png'
