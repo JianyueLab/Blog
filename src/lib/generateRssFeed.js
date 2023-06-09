@@ -2,25 +2,25 @@ import ReactDOMServer from 'react-dom/server'
 import { MemoryRouterProvider } from 'next-router-mock/MemoryRouterProvider'
 import { Feed } from 'feed'
 import { mkdir, writeFile } from 'fs/promises'
-import favicon from '@/images/avatar.jpg'
+
 import { getAllArticles } from './getAllArticles'
 
 export async function generateRssFeed() {
   let articles = await getAllArticles()
   let siteUrl = process.env.NEXT_PUBLIC_SITE_URL
   let author = {
-    name: 'Spencer Sharp',
-    email: 'spencer@planetaria.tech',
+    name: 'JianyueHugo',
+    email: 'valor@jianyuelab.cc',
   }
 
   let feed = new Feed({
     title: author.name,
-    description: 'Your blog description',
+    description: 'Blog of JianyueHugo',
     author,
     id: siteUrl,
     link: siteUrl,
-    image: favicon,
-    favicon: favicon.ico,
+    image: `${siteUrl}/favicon.ico`,
+    favicon: `${siteUrl}/favicon.ico`,
     copyright: `All rights reserved ${new Date().getFullYear()}`,
     feedLinks: {
       rss2: `${siteUrl}/rss/feed.xml`,
