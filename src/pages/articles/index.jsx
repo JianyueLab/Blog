@@ -45,7 +45,7 @@ export default function ArticlesIndex({ articles }) {
         />
       </Head>
       <SimpleLayout
-        title="Express & Share"
+        title="Some Expression & Share"
         intro="All my thoughts and experience of programming, server development and translation"
       >
         <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
