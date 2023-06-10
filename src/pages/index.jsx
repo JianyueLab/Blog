@@ -11,6 +11,7 @@ import {
   InstagramIcon,
   TwitterIcon,
   TelegramIcon,
+  DiscordIcon,
 } from '@/components/SocialIcons'
 import ib from '@/images/logos/ib.png'
 import kojimachi from '@/images/logos/kojimachi.png'
