@@ -5,7 +5,7 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import {
-  FacebookIcon,
+  DiscordIcon,
   GitHubIcon,
   InstagramIcon,
   TelegramIcon,
@@ -80,11 +80,11 @@ export default function About() {
               <SocialLink href="https://twitter.com/jianyuehugo" icon={TwitterIcon}>
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href="https://facebook.com/jianyuehugo" icon={FacebookIcon}>
-                Follow on Twitter
+              <SocialLink href="https://discord.gg/B76vywmu" icon={DiscordIcon}>
+                Contact on Discord
               </SocialLink>
               <SocialLink href="https://t.me/jianyuehugo" icon={TelegramIcon}>
-                Follow on Twitter
+                Contact on Telegram
               </SocialLink>
               <SocialLink href="https://www.instagram.com/jianyuehugo/" icon={InstagramIcon} className="mt-4">
                 Follow on Instagram

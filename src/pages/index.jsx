@@ -10,7 +10,6 @@ import {
   GitHubIcon,
   InstagramIcon,
   TwitterIcon,
-  FacebookIcon,
   TelegramIcon,
 } from '@/components/SocialIcons'
 import ib from '@/images/logos/ib.png'
@@ -251,13 +250,13 @@ export default function Home({ articles }) {
               icon={TwitterIcon}
             />
             <SocialLink
-              href="https://facebook.com/jianyuehugo"
-              aria-label="Follow on Facebook"
-              icon={FacebookIcon}
+              href="https://discord.gg/B76vywmu"
+              aria-label="Contact on Discrod"
+              icon={DiscordIcon}
             />
             <SocialLink
               href="https://t.me/jianyuehugo"
-              aria-label="Contact me on Telegram"
+              aria-label="Contact on Telegram"
               icon={TelegramIcon}
             />
             <SocialLink
