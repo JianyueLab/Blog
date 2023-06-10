@@ -33,7 +33,7 @@ export default function Projects() {
         <title>Projects - JianyueHugo</title>
       </Head>
       <SimpleLayout
-        title="Things I provide and make myself"
+        title="Things I provide and make by myself"
         intro="Some open source projects from other developers and I put it into service. Also some project made by my own or translated it "
       >
         <ul
