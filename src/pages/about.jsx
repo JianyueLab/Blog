@@ -5,9 +5,10 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import {
+  FacebookIcon,
   GitHubIcon,
   InstagramIcon,
-  LinkedInIcon,
+  TelegramIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
@@ -77,6 +78,12 @@ export default function About() {
           <div className="lg:pl-20">
             <ul role="list">
               <SocialLink href="https://twitter.com/jianyuehugo" icon={TwitterIcon}>
+                Follow on Twitter
+              </SocialLink>
+              <SocialLink href="https://facebook.com/jianyuehugo" icon={FacebookIcon}>
+                Follow on Twitter
+              </SocialLink>
+              <SocialLink href="https://t.me/jianyuehugo" icon={TelegramIcon}>
                 Follow on Twitter
               </SocialLink>
               <SocialLink href="https://www.instagram.com/jianyuehugo/" icon={InstagramIcon} className="mt-4">
