@@ -17,6 +17,7 @@ import ib from '@/images/logos/ib.png'
 import kojimachi from '@/images/logos/kojimachi.png'
 import image1 from '@/images/photos/image_1.jpg'
 import image2 from '@/images/photos/banner.jpg'
+import image3 from '@/images/photos/image_2.jpg'
 import { formatDate } from '@/lib/formatDate'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -203,7 +204,7 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2].map((image, imageIndex) => (
+        {[image1, image3 ,image2].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
