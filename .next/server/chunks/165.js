@@ -66,8 +66,8 @@ var map = {
 		612
 	],
 	"./first_day_of_new_blog.mdx": [
-		9143,
-		143
+		7080,
+		80
 	],
 	"./index": [
 		3612,

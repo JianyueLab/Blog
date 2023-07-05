@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/gdnaZvVM_DcfuTgV98bFn/_buildManifest.js",
-    "static/gdnaZvVM_DcfuTgV98bFn/_ssgManifest.js"
+    "static/F4IqIc8lTPSw-5KILe37J/_buildManifest.js",
+    "static/F4IqIc8lTPSw-5KILe37J/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -14,13 +14,13 @@
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/index-d08ab2b17085e508.js"
+      "static/chunks/pages/index-066309cedeb7eee2.js"
     ],
     "/_app": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/css/20437f78ad186562.css",
+      "static/css/09946d73690b1427.css",
       "static/chunks/pages/_app-44903bd2df271e0a.js"
     ],
     "/_error": [
@@ -33,7 +33,7 @@
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/about-94571e0931bd2017.js"
+      "static/chunks/pages/about-3e2a33b10b6ac33a.js"
     ],
     "/articles": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
@@ -45,7 +45,7 @@
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/articles/first_day_of_new_blog-ef2199b9e2bb0c39.js"
+      "static/chunks/pages/articles/first_day_of_new_blog-ef1f3f609960b5cf.js"
     ],
     "/collection": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
@@ -63,7 +63,7 @@
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/projects-f4f2162b31802274.js"
+      "static/chunks/pages/projects-e0d83a4e2d4c67c4.js"
     ],
     "/thank-you": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",

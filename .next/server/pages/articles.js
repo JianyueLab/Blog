@@ -110,13 +110,6 @@ module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ 7834:
-/***/ ((module) => {
-
-module.exports = import("@mdx-js/react");;
-
-/***/ }),
-
 /***/ 1017:
 /***/ ((module) => {
 

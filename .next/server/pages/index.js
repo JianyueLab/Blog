@@ -5,7 +5,7 @@ exports.id = 405;
 exports.ids = [405,91];
 exports.modules = {
 
-/***/ 4276:
+/***/ 6024:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -65,6 +65,8 @@ var SocialIcons = __webpack_require__(7643);
 /* harmony default export */ const image_1 = ({"src":"/_next/static/media/image_1.88ea2c89.jpg","height":1080,"width":1920,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABQEBAQAAAAAAAAAAAAAAAAAABAX/2gAMAwEAAhADEAAAAKInr//EAB0QAAEEAgMAAAAAAAAAAAAAAAIBAwQRAAYSEyH/2gAIAQEAAT8AgbFIOd1m0FNiqFXnLP/EABsRAAAHAQAAAAAAAAAAAAAAAAABAgMEESJB/9oACAECAQE/AEyHqLfB/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAECIf/aAAgBAwEBPwC4lPEf/9k=","blurWidth":8,"blurHeight":5});
 ;// CONCATENATED MODULE: ./src/images/photos/banner.jpg
 /* harmony default export */ const banner = ({"src":"/_next/static/media/banner.bd0a64d2.jpg","height":1080,"width":1920,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABwEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAJ0GP//EABsQAAIBBQAAAAAAAAAAAAAAAAECAwAFESFR/9oACAEBAAE/ABdpN4iQN2v/xAAZEQABBQAAAAAAAAAAAAAAAAABAAISQpH/2gAIAQIBAT8Am8WOr//EABkRAAEFAAAAAAAAAAAAAAAAAAEAAhJCkf/aAAgBAwEBPwCLTUYv/9k=","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./src/images/photos/image_2.png
+/* harmony default export */ const image_2 = ({"src":"/_next/static/media/image_2.d4bca23a.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAaklEQVR42h3LWxKCMAwAwN7DmiZp+khtGHGEAuP9zyWw/+vWsZXaCAlDUG2lXqx3Zzapfcb2sywSIMDTe59ScmNdpPbvsrfIQhgJAeBMjumRU9OqkQnCDYCYHeVZp/exH7OWl3BmLBKZ+Q+O2RJLhwXlrQAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":5});
 // EXTERNAL MODULE: ./src/lib/formatDate.js
 var formatDate = __webpack_require__(3652);
 ;// CONCATENATED MODULE: external "react-dom/server"
@@ -138,6 +140,7 @@ async function generateRssFeed() {
 }
 
 ;// CONCATENATED MODULE: ./src/pages/index.jsx
+
 
 
 
@@ -397,6 +400,7 @@ function Photos() {
             className: "-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8",
             children: [
                 image_1,
+                image_2,
                 banner
             ].map((image, imageIndex)=>/*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: external_clsx_default()("relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl", rotations[imageIndex % rotations.length]),
@@ -420,7 +424,7 @@ function Home({ articles  }) {
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         name: "description",
-                        content: "I am JianyueHugo, aka Valor, a student and a developer in Tokyo. I am an intern member of the translation group of TecoStudio(www.tecostudio.cn)."
+                        content: "I am JianyueHugo, aka Valor, a student and a developer in Tokyo. I am a member of the translation group of TecoStudio."
                     })
                 ]
             }),
@@ -433,9 +437,17 @@ function Home({ articles  }) {
                             className: "text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl",
                             children: "Server Developer, Translator, Game Player and Student"
                         }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                             className: "mt-6 text-base text-zinc-600 dark:text-zinc-400",
-                            children: "I am JianyueHugo, aka Valor, a student and a developer in Tokyo. I am an intern member of the translation group of TecoStudio(www.tecostudio.cn)."
+                            children: [
+                                "I am JianyueHugo, aka Valor, a student and a developer in Tokyo. I am a member of the translation group of ",
+                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    href: "https://www.tecostudio.cn",
+                                    class: "italic",
+                                    children: "TecoStudio"
+                                }),
+                                "."
+                            ]
                         }),
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                             className: "mt-6 flex gap-6",
@@ -446,12 +458,22 @@ function Home({ articles  }) {
                                     icon: SocialIcons/* TwitterIcon */.Zm
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx(SocialLink, {
+                                    href: "https://discord.gg/B76vywmu",
+                                    "aria-label": "Contact on Discrod",
+                                    icon: SocialIcons/* DiscordIcon */.D7
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx(SocialLink, {
+                                    href: "https://t.me/jianyuehugo",
+                                    "aria-label": "Contact on Telegram",
+                                    icon: SocialIcons/* TelegramIcon */.YG
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx(SocialLink, {
                                     href: "https://www.instagram.com/jianyuehugo/",
                                     "aria-label": "Follow on Instagram",
                                     icon: SocialIcons/* InstagramIcon */.yu
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx(SocialLink, {
-                                    href: "https://github.com/ferrijianyue",
+                                    href: "https://github.com/JianyueLab",
                                     "aria-label": "Follow on GitHub",
                                     icon: SocialIcons/* GitHubIcon */.fy
                                 })
@@ -667,13 +689,6 @@ module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ 7834:
-/***/ ((module) => {
-
-module.exports = import("@mdx-js/react");;
-
-/***/ }),
-
 /***/ 1017:
 /***/ ((module) => {
 
@@ -688,7 +703,7 @@ module.exports = require("path");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [664,636,675,649,537,643,165], () => (__webpack_exec__(4276)));
+var __webpack_exports__ = __webpack_require__.X(0, [664,636,675,649,537,643,165], () => (__webpack_exec__(6024)));
 module.exports = __webpack_exports__;
 
 })();

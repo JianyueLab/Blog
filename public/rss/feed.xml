@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0">
     <channel>
         <title>JianyueHugo</title>
         <link>undefined</link>
         <description>Blog of JianyueHugo</description>
-        <lastBuildDate>Fri, 09 Jun 2023 23:29:24 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Jul 2023 05:00:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,12 +14,11 @@
         </image>
         <copyright>All rights reserved 2023</copyright>
         <item>
-            <title><![CDATA[First Day of New Blog]]></title>
+            <title><![CDATA[Dairy For 5.7.2023]]></title>
             <link>undefined/articles/first_day_of_new_blog</link>
             <guid>undefined/articles/first_day_of_new_blog</guid>
-            <pubDate>Fri, 09 Jun 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 07 May 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[A diary of my new blog]]></description>
-            <content:encoded><![CDATA[<p>This is a test</p>]]></content:encoded>
             <author>valor@jianyuelab.cc (JianyueHugo)</author>
         </item>
     </channel>
