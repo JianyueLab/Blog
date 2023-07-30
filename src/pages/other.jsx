@@ -53,6 +53,9 @@ export default function Uses() {
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
+            <Tool title="Macbook Pro 2019">
+              I love using the MacBook, it gives me a lot of convenience and makes me more productive. I really recommend having your own MacBook.
+            </Tool>
             <Tool title="DIY PC">
               CPU: AMD R7 5700X;
               GPU: NIVIDA 1650 super;

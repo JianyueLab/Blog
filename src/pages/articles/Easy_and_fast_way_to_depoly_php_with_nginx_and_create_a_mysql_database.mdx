@@ -1,0 +1,89 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const meta = {
+  author: 'Valor',
+  date: '2023-07-30',
+  title: 'Easy and fast way to depoly php with nginx',
+  description:
+    'A tutorial for nginx, php and mariadb(mysql)',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+# Goals & Steps: 
+  - useful php packages
+  - Edit Nginx config to enable php
+  - Set a Database and create a user for it
+
+# Lets start !
+  ## PHP
+    ### Useful packages
+    markdown_list = [
+      "curl — Performs remote request operations.",
+      "dom — Used to validate Text Widget content and to automatically configure IIS7+.",
+      "exif — Works with metadata stored in images.",
+      "fileinfo — Used to detect the MIME type of file uploads.",
+      "hash — Used for hashing, including passwords and update packages.",
+      "imagick — Provides better image quality for media uploads.",
+      "json — Used for communications with other servers.",
+      "mbstring — Used to properly handle UTF-8 text.",
+      "mysqli — Connects to MySQL for database interactions.",
+      "openssl — Permits SSL-based connections to other hosts.",
+      "pcre — Increases performance of pattern matching in code searches.",
+      "sodium — Validates signatures and provides secure random bytes.",
+      "xml — Used for XML parsing, such as from a third-party site.",
+      "zip — Used for decompressing Plugins, Themes, and WordPress update packages."
+    ]
+
+markdown = "\n".join([f"- {item}" for item in markdown_list])
+
+print(markdown)
+
+    ### how to fast install them 
+    ``` bash
+    #for debian / ubuntu
+    #if you need install with root permission on other user please add sudo at first of command & this will install the latest version with your apt
+    $ apt update 
+    $ apt install -y php php-common php-curl php-dom php-exif php-fileinfo php-hash php-imagick php-json php-mbstring php-mysql php-openssl php-pcre php-sodium php-xml php-zip 
+    ```
+
+  ## How to enable php with your NGINX web server
+    ``` bash
+    #Step 1: Check your php version
+    $ php -version
+    PHP 7.4.3-4ubuntu2.19 (cli) (built: Jun 27 2023 15:49:59) ( NTS )
+    Copyright (c) The PHP Group
+    Zend Engine v3.4.0, Copyright (c) Zend Technologies
+    with Zend OPcache v7.4.3-4ubuntu2.19, Copyright (c), by Zend Technologies
+
+    #Step 2: Edit your config file
+    $ nano /etc/nginx/sites-available/default
+    # found index line and add a index.php 
+    index index.html index.htm index.nginx-debian.html index.php;
+    # found default php quote adn edit it like this.
+    location ~ \.php$ {
+      include snippets/fastcgi-php.conf;
+      fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
+    }
+
+    #Step 3: press ctrl + X save file & check and restart nginx
+    $ nginx -t # after it said successful countinue or go back and check !
+    $ systemctl restart nginx
+    ```
+
+  ## How to create a mysql database
+    ``` bash
+    #Step 1: Login mysql
+    $ mysql -u root -p
+    
+    #Step 2: Create database & change database_name to your own!!
+    $ CREATE DATABASE database_name;
+
+    #Step 3: Create user and give permission
+    #Change database_name with same above, and edit your own user_name and PWD(password)
+    $ GRANT ALL PRIVILEGES ON database_name.* TO 'user_name'@'localhost' IDENTIFIED BY 'PWD';
+
+    #Step 4: Save & Exit
+    $ FLUSH PRIVILEGES;
+    $ EXIT:
+    ```
