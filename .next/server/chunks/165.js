@@ -65,9 +65,15 @@ var map = {
 		803,
 		612
 	],
-	"./first_day_of_new_blog.mdx": [
-		7080,
-		80
+	"./2023_07_05_diary.mdx": [
+		9659,
+		295,
+		659
+	],
+	"./Easy_and_fast_way_to_depoly_php_with_nginx_and_create_a_mysql_database.mdx": [
+		4894,
+		295,
+		894
 	],
 	"./index": [
 		3612,

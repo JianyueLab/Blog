@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/F4IqIc8lTPSw-5KILe37J/_buildManifest.js",
-    "static/F4IqIc8lTPSw-5KILe37J/_ssgManifest.js"
+    "static/XnUNiTLiA39blt3UN-NKY/_buildManifest.js",
+    "static/XnUNiTLiA39blt3UN-NKY/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -41,11 +41,17 @@
       "static/chunks/main-85afaf1648695780.js",
       "static/chunks/pages/articles-e8c234ad55a69565.js"
     ],
-    "/articles/first_day_of_new_blog": [
+    "/articles/2023_07_05_diary": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/articles/first_day_of_new_blog-ef1f3f609960b5cf.js"
+      "static/chunks/pages/articles/2023_07_05_diary-becc643c6947d380.js"
+    ],
+    "/articles/Easy_and_fast_way_to_depoly_php_with_nginx_and_create_a_mysql_database": [
+      "static/chunks/webpack-b8f8d6679aaa5f42.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-85afaf1648695780.js",
+      "static/chunks/pages/articles/Easy_and_fast_way_to_depoly_php_with_nginx_and_create_a_mysql_database-a56f0ee3276f0844.js"
     ],
     "/collection": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
@@ -57,7 +63,7 @@
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/other-8da5a091c0405b95.js"
+      "static/chunks/pages/other-b0cc02d4e6f93639.js"
     ],
     "/projects": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
