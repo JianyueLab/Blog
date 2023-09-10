@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/XnUNiTLiA39blt3UN-NKY/_buildManifest.js",
-    "static/XnUNiTLiA39blt3UN-NKY/_ssgManifest.js"
+    "static/c0heN8hN2wzosvAtyMUAz/_buildManifest.js",
+    "static/c0heN8hN2wzosvAtyMUAz/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -51,7 +51,7 @@
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-85afaf1648695780.js",
-      "static/chunks/pages/articles/Easy_and_fast_way_to_depoly_php_with_nginx_and_create_a_mysql_database-a56f0ee3276f0844.js"
+      "static/chunks/pages/articles/Easy_and_fast_way_to_depoly_php_with_nginx_and_create_a_mysql_database-1bedb5a0bf53fe2e.js"
     ],
     "/collection": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",

@@ -93,6 +93,13 @@ export default function About() {
                 Follow on GitHub
               </SocialLink>
               <SocialLink
+                href="mailto:contact@jianyuehugo.com"
+                icon={MailIcon}
+                className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
+              >
+                contact@jianyuehugo.com
+              </SocialLink>
+              <SocialLink
                 href="mailto:valor@jianyuelab.cc"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"

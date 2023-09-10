@@ -4,7 +4,7 @@
         <title>JianyueHugo</title>
         <link>undefined</link>
         <description>Blog of JianyueHugo</description>
-        <lastBuildDate>Wed, 02 Aug 2023 09:43:54 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 10 Sep 2023 01:03:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,7 +14,7 @@
         </image>
         <copyright>All rights reserved 2023</copyright>
         <item>
-            <title><![CDATA[Easy and fast way to depoly php with nginx]]></title>
+            <title><![CDATA[Easy and fast way to depoly php with nginx and mariadb]]></title>
             <link>undefined/articles/Easy_and_fast_way_to_depoly_php_with_nginx_and_create_a_mysql_database</link>
             <guid>undefined/articles/Easy_and_fast_way_to_depoly_php_with_nginx_and_create_a_mysql_database</guid>
             <pubDate>Sun, 30 Jul 2023 00:00:00 GMT</pubDate>

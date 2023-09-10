@@ -24,7 +24,7 @@ _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.the
 const meta = {
     author: "Valor",
     date: "2023-07-30",
-    title: "Easy and fast way to depoly php with nginx",
+    title: "Easy and fast way to depoly php with nginx and mariadb",
     description: "A tutorial for nginx, php and mariadb(mysql)"
 };
 const MDXLayout = (props)=>react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_ArticleLayout__WEBPACK_IMPORTED_MODULE_2__/* .ArticleLayout */ .B, Object.assign({
