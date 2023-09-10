@@ -102,7 +102,7 @@ export default function About() {
               <SocialLink
                 href="mailto:valor@jianyuelab.cc"
                 icon={MailIcon}
-                className="mt-8"
+                className="mt-4"
               >
                 valor@jianyuelab.cc
               </SocialLink>
