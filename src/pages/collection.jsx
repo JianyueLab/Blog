@@ -33,7 +33,7 @@ export default function Speaking() {
       </Head>
       <SimpleLayout
         title="Some things are important and useful"
-        intro="If you look around on the Internet, there are too many goods and nobody is sharing them. Here you can find a lot of useful information."
+        intro="If you look around on the Internet, there are too many goods things and nobody is sharing them. Here you can find a lot of useful information."
       >
         <div className="space-y-20">
           <SpeakingSection title="Minecraft">
