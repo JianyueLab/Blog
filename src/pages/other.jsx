@@ -57,24 +57,24 @@ export default function Uses() {
               I love using the MacBook, it gives me a lot of convenience and makes me more productive. I really recommend having your own MacBook.
             </Tool>
             <Tool title="DIY PC">
-              CPU: AMD R7 5700X;
-              GPU: NIVIDA 1650 super;
-              RAM: KINGBANK 16G*2 3600Hz;
-              SSD: SAMSUNG 980 1T*2;
-              ELECTRIC: TT SFX 550W;
-              MotherBoard: MSI MPG B550 GAMING PLUS
+              CPU: AMD R7 5700X; <br />
+              GPU: NIVIDA 1650 super; <br />
+              RAM: KINGBANK 16G*2 3600Hz; <br />
+              SSD: SAMSUNG 980 1T*2; <br />
+              ELECTRIC: TT SFX 550W; <br />
+              MotherBoard: MSI MPG B550 GAMING PLUS <br />
             </Tool>
             <Tool title="PRIVATE SERVER">
-              CPU: AMD EPYC 7302P;
-              RAM: SAMSUNG 16G*8 2400Hz;
-              SSD: SAMSUNG 980 1T;
-              HDD: SEAGATE 6T*3 8T*1
+              CPU: AMD EPYC 7302P; <br />
+              RAM: SAMSUNG 16G*8 2400Hz; <br />
+              SSD: SAMSUNG 980 1T; <br />
+              HDD: SEAGATE 6T*3 8T*1 <br />
             </Tool>
             <Tool title="OTHER">
-              Mouse: RAZER VIPER ULTIMATE;
-              Keyboard: RAZER BLACKWIDOW V3 MINI;
-              MONITOR: DELL 24 GAMING MONITOR;
-              HEADPHONE: RAZER KRAKEN V3
+              Mouse: RAZER VIPER ULTIMATE; <br />
+              Keyboard: RAZER BLACKWIDOW V3 MINI; <br />
+              MONITOR: DELL 24 GAMING MONITOR; <br />
+              HEADPHONE: RAZER KRAKEN V3 <br />
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
@@ -83,6 +83,15 @@ export default function Uses() {
             </Tool>
             <Tool title="Visual Studio Code">
               Easy app for project
+            </Tool>
+          </ToolsSection> 
+          <ToolsSection title="Address">
+            <Tool title="Japan">
+              Jianyue Hugo Liang / Janyue Aosugi <br />
+              Room 804, Ruminasu Icibancho <br />
+              21-3, Ichibancho <br />
+              Chiyoda-city, Tokyo-to <br />
+              102-0082, Japan <br />
             </Tool>
           </ToolsSection>
           <ToolsSection title="Links">
