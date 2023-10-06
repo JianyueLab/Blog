@@ -71,7 +71,7 @@ export default function About() {
               I'm also a game player, such as Minecraft, Conter-strike: Global Offensive, Rust, Escape From Tarkov. I really like to work or participate in their community.
               </p>
               <p>
-                Overall, I think after I work hard and study, I can go to a nice university and make more and more people's lives better.
+                Overall, I think after I work hard and study, I can go to a nice university and make more people's lives better.
               </p>
             </div>
           </div>
