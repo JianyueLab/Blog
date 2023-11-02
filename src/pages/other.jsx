@@ -85,15 +85,6 @@ export default function Uses() {
               Easy app for project
             </Tool>
           </ToolsSection> 
-          <ToolsSection title="Address">
-            <Tool title="Japan">
-              Jianyue Hugo Liang / Janyue Aosugi <br />
-              Room 804, Ruminasu Icibancho <br />
-              21-3, Ichibancho <br />
-              Chiyoda-city, Tokyo-to <br />
-              102-0082, Japan <br />
-            </Tool>
-          </ToolsSection>
           <ToolsSection title="Links">
             <Appearance
               href="https://inuebisu.cn"
