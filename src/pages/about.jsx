@@ -80,7 +80,7 @@ export default function About() {
               <SocialLink href="https://twitter.com/jianyuehugo" icon={TwitterIcon}>
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href="https://discord.gg/B76vywmu" icon={DiscordIcon} className="mt-4">
+              <SocialLink href="https://discord.gg/YRf2RAWwcp" icon={DiscordIcon} className="mt-4">
                 Contact on Discord
               </SocialLink>
               <SocialLink href="https://t.me/jianyuehugo" icon={TelegramIcon} className="mt-4">
