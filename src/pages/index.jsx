@@ -15,7 +15,7 @@ import {
 } from '@/components/SocialIcons'
 import ib from '@/images/logos/ib.png'
 import kojimachi from '@/images/logos/kojimachi.png'
-import image1 from '@/images/photos/image_1.jpg'
+import image1 from '@/images/photos/image_1.png'
 import image2 from '@/images/photos/banner.jpg'
 import image3 from '@/images/photos/image_2.png'
 import { formatDate } from '@/lib/formatDate'
