@@ -3,7 +3,8 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import nextweb from '@/images/logos/nextweb.svg'
+import jianyuelab from 'src/images/logos/jianyuelab.png'
+
 
 const projects = [
   {
@@ -11,7 +12,7 @@ const projects = [
     description:
       'A wiki of Post.',
     link: { href: 'https://postal.wiki', label: 'Postal Wiki' },
-    logo: nextweb,
+    logo: jianyuelab,
   },
 ]
 
