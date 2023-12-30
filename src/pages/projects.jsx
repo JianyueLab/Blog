@@ -7,10 +7,10 @@ import nextweb from '@/images/logos/nextweb.svg'
 
 const projects = [
   {
-    name: 'ChatGPT (ChatBot)',
+    name: 'Postal Wiki',
     description:
-      'FREE CHATGPT, PASSWORD: "jianyuelab.cc"',
-    link: { href: 'https://chat.jianyuelab.cc', label: 'jianyuelab.cc' },
+      'A wiki of Post.',
+    link: { href: 'https://postal.wiki', label: 'Postal Wiki' },
     logo: nextweb,
   },
 ]
