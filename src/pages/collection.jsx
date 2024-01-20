@@ -52,6 +52,22 @@ export default function Speaking() {
               cta="Link"
             />
           </SpeakingSection>
+          <SpeakingSection title="Links">
+            <Appearance
+              href="https://inuebisu.cn/"
+              title="inuBlog"
+              description="inuEbisu's Blog"
+              event="My Best Friends"
+              cta="Link"
+            />
+            <Appearance
+              href="https://www.tecostudio.cn/"
+              title="TecoStudio"
+              description="TecoStudio Official Website"
+              event="TecoStudio"
+              cta="Link"
+            />
+          </SpeakingSection>
         </div>
       </SimpleLayout>
     </>

@@ -89,15 +89,9 @@ export default function Uses() {
           </ToolsSection> 
           <ToolsSection title="Links">
             <Appearance
-              href="https://inuebisu.cn"
-              title="inuebisu"
-              description="NICE and FRIENDLY guy"
-              cta="Link"
-            />
-            <Appearance
-              href="https://www.tecostudio.cn"
-              title="TecoStuio"
-              description="A group of people who love Minecraft and working for it's community."
+              href="https://jianyuelab.net"
+              title="My Chinese Blog"
+              description="Chinese BLOG!!!!!!"
               cta="Link"
             />
           </ToolsSection>
