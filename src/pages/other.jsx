@@ -53,26 +53,28 @@ export default function Uses() {
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
-            <Tool title="Macbook Pro 2019">
+            <Tool title="Macbook Pro 2019 16 inch">
               I love using the MacBook, it gives me a lot of convenience and makes me more productive. I really recommend having your own MacBook.
             </Tool>
             <Tool title="DIY PC">
               CPU: AMD R7 5700X; <br />
-              GPU: NIVIDA 1650 super; <br />
+              GPU: ZOTAC NIVIDA RTX 4060; <br />
               RAM: KINGBANK 16G*2 3600Hz; <br />
               SSD: SAMSUNG 980 1T*2; <br />
-              ELECTRIC: TT SFX 550W; <br />
+              POWER: Super Flower 750W; <br />
               MotherBoard: MSI MPG B550 GAMING PLUS <br />
             </Tool>
             <Tool title="PRIVATE SERVER">
               CPU: AMD EPYC 7302P; <br />
               RAM: SAMSUNG 16G*8 2400Hz; <br />
               SSD: SAMSUNG 980 1T; <br />
-              HDD: SEAGATE 6T*3 8T*1 <br />
+              HDD: SEAGATE 6T*3 8T*1; <br />
+              POWER: TT sfx 550W; <br />
+              MotherBoard: Supermicro H12SSL-i <br />
             </Tool>
             <Tool title="OTHER">
               Mouse: RAZER VIPER ULTIMATE; <br />
-              Keyboard: RAZER BLACKWIDOW V3 MINI; <br />
+              Keyboard: ASUS ROG AZOTH BLACK; <br />
               MONITOR: DELL 24 GAMING MONITOR; <br />
               HEADPHONE: RAZER KRAKEN V3 <br />
             </Tool>
