@@ -2,14 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/about": "pages/about.html",
-  "/articles/2023_07_05_diary": "pages/articles/2023_07_05_diary.html",
-  "/articles/Easy_and_fast_way_to_depoly_php_with_nginx_and_create_a_mysql_database": "pages/articles/Easy_and_fast_way_to_depoly_php_with_nginx_and_create_a_mysql_database.html",
-  "/collection": "pages/collection.html",
-  "/other": "pages/other.html",
-  "/projects": "pages/projects.html",
-  "/thank-you": "pages/thank-you.html",
-  "/articles": "pages/articles.js",
-  "/": "pages/index.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }

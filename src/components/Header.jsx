@@ -169,8 +169,8 @@ function DesktopNavigation(props) {
         <NavItem href="/projects">Projects</NavItem>
         <NavItem href="/collection">Collections</NavItem>
         <NavItem href="/other">Other</NavItem>
-        <NavItem href="https://jianyuelab.net">中文</NavItem>
-        <NavItem href="https://jp.jianyuelab.net">日本語</NavItem>
+        <NavItem href="https://jianyuelab.net">Chinese</NavItem>
+        <NavItem href="https://jp.jianyuelab.net">Japanese</NavItem>
       </ul>
     </nav>
   )
