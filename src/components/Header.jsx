@@ -126,6 +126,8 @@ function MobileNavigation(props) {
                 <MobileNavItem href="/projects">Projects</MobileNavItem>
                 <MobileNavItem href="/collection">Collections</MobileNavItem>
                 <MobileNavItem href="/other">Other</MobileNavItem>
+                <MobileNavItem href="https://jianyuelab.net">中文</MobileNavItem>
+                <MobileNavItem href="https://jp.jianyuelab.net">日本語</MobileNavItem>
               </ul>
             </nav>
           </Popover.Panel>
@@ -167,6 +169,8 @@ function DesktopNavigation(props) {
         <NavItem href="/projects">Projects</NavItem>
         <NavItem href="/collection">Collections</NavItem>
         <NavItem href="/other">Other</NavItem>
+        <NavItem href="https://jianyuelab.net">中文</NavItem>
+        <NavItem href="https://jp.jianyuelab.net">日本語</NavItem>
       </ul>
     </nav>
   )
