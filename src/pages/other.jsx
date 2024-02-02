@@ -74,6 +74,7 @@ export default function Uses() {
             </Tool>
             <Tool title="TEST & TRAINING SERVER">
               CPU: AMD R5 5600X; <br />
+              GPU: NVIDIA 1650 SUPER; <br />
               RAM: MICRON 16*2 2400Hz; KINGBANK 16g*1 3600Hz; <br />
               SSD: SAMSUNG 980 1T; <br />
               POWER: TT sfx 550W; <br />
