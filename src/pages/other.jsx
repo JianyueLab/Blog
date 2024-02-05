@@ -66,11 +66,19 @@ export default function Uses() {
             </Tool>
             <Tool title="PRIVATE SERVER">
               CPU: AMD EPYC 7302P; <br />
-              RAM: SAMSUNG 16G*8 2400Hz; <br />
-              SSD: SAMSUNG 980 1T; <br />
+              RAM: SAMSUNG 16G*4 2400Hz & 32g*2 2666; MICRON 16g*2 2400Hz;<br />
+              SSD: SAMSUNG 980 pro 1T; <br />
               HDD: SEAGATE 6T*3 8T*1; <br />
               POWER: TT sfx 550W; <br />
-              MotherBoard: Supermicro H12SSL-i <br />
+              MOTHERBOARD: Supermicro H12SSL-i <br />
+            </Tool>
+            <Tool title="TEST & TRAINING SERVER">
+              CPU: AMD R5 5600X; <br />
+              GPU: NVIDIA 1650 SUPER; <br />
+              RAM: KINGBANK 16g*1 3600Hz; <br />
+              SSD: SAMSUNG 980 1T; <br />
+              POWER: TT sfx 550W; <br />
+              MOTHERBOARD: ASROCK B550M PRO 4 <br />
             </Tool>
             <Tool title="OTHER">
               Mouse: RAZER VIPER ULTIMATE; <br />
