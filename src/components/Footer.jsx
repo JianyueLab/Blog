@@ -26,7 +26,7 @@ export function Footer() {
                 <NavLink href="/collection">Collection</NavLink>
                 <NavLink href="/other">Other</NavLink>
                 <NavLink href="https://jianyuelab.net">中文</NavLink>
-                <NavLink href="https://jp.jianyuelab.net">日本語</NavLink>
+                <NavLink href="https://jianyuehugo.jp">日本語</NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
                 Copyright &copy; 2023 - {new Date().getFullYear()} JianyueHugo. All rights reserved.
