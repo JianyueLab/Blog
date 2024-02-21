@@ -10,14 +10,14 @@ export const meta = {
 
 export default (props) => <ArticleLayout meta={meta} {...props} />
 
-# Goals & Steps: 
+## Goals & Steps: 
   - useful php packages
   - Edit Nginx config to enable php
   - Set a Database and create a user for it
 
-# Lets start !
-  ## PHP
-    ### Useful packages
+## Lets start !
+  ### PHP
+    #### Useful packages
     - curl — Performs remote request operations.
     - dom — Used to validate Text Widget content and to automatically configure IIS7+.
     - exif — Works with metadata stored in images.
@@ -33,7 +33,7 @@ export default (props) => <ArticleLayout meta={meta} {...props} />
     - xml — Used for XML parsing, such as from a third-party site.
     - zip — Used for decompressing Plugins, Themes, and WordPress update packages.
 
-    ### how to fast install them 
+    #### how to fast install them 
     ``` bash
     #for debian / ubuntu
     #if you need install with root permission on other user please add sudo at first of command & this will install the latest version with your apt
@@ -41,7 +41,7 @@ export default (props) => <ArticleLayout meta={meta} {...props} />
     $ apt install -y php php-common php-curl php-dom php-exif php-fileinfo php-hash php-imagick php-json php-mbstring php-mysql php-openssl php-pcre php-sodium php-xml php-zip 
     ```
 
-  ## How to enable php with your NGINX web server
+  ### How to enable php with your NGINX web server
     ``` bash
     #Step 1: Check your php version
     $ php -version
@@ -65,7 +65,7 @@ export default (props) => <ArticleLayout meta={meta} {...props} />
     $ systemctl restart nginx
     ```
 
-  ## How to create a mysql database
+  ### How to create a mysql database
     ``` bash
     #Step 1: Login mysql
     $ mysql -u root -p
