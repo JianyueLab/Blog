@@ -102,6 +102,12 @@ export default function Uses() {
               description="Chinese BLOG!!!!!!"
               cta="Link"
             />
+            <Appearance
+              href="https://jianyuehugo.jp"
+              title="My Japanese Blog"
+              description="Japanese!!!"
+              cta="Link"
+            />
           </ToolsSection>
         </div>
       </SimpleLayout>
