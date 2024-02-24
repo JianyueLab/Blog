@@ -12,6 +12,7 @@ import {
   TwitterIcon,
   TelegramIcon,
   DiscordIcon,
+  AfdianIcon,
 } from '@/components/SocialIcons'
 import ib from '@/images/logos/ib.png'
 import kojimachi from '@/images/logos/kojimachi.png'
@@ -270,6 +271,11 @@ export default function Home({ articles }) {
               href="https://github.com/JianyueLab"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
+            />
+            <SocialLink
+              href="https://afdian.net/a/JianyueHugo"
+              aria-label="Donate on Afdian"
+              icon={AfdianIcon}
             />
           </div>
         </div>

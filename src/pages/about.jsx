@@ -10,6 +10,7 @@ import {
   InstagramIcon,
   TelegramIcon,
   TwitterIcon,
+  AfdianIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
@@ -91,6 +92,9 @@ export default function About() {
               </SocialLink>
               <SocialLink href="https://github.com/JianyueLab" icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
+              </SocialLink>
+              <SocialLink href="https://afdian.net/a/JianyueHugo" icon={AfdianIcon} className="mt-4">
+                Donate on Afdian
               </SocialLink>
               <SocialLink
                 href="mailto:contact@jianyuehugo.com"
