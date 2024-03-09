@@ -118,8 +118,8 @@ http {
     server {
         # Daemon to public
         listen 8443 ssl;
-        ssl_certificate /etc/nginx/mcsm.pem;
-        ssl_certificate_key /etc/nginx/mcsm.key;
+        ssl_certificate /path/to/file;
+        ssl_certificate_key /path/to/file;
 
         location / {
             # daemon
