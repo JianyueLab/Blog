@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 
-import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
@@ -139,7 +138,7 @@ function Resume() {
               <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
             </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
-              <dt className="sr-only">Company</dt>
+              <dt className="sr-only">Work & Study</dt>
               <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
                 {role.company}
               </dd>
@@ -215,7 +214,7 @@ export default function Home({ articles }) {
             Server Developer, Translator and Student
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I am JianyueHugo, aka Valor, 15 y.o., a student and a developer in Tokyo.
+            I am JianyueHugo, a.k.a. JianyueLab, Valor, 15 y.o., a student and a developer in Tokyo.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

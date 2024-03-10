@@ -14,6 +14,13 @@ const projects = [
     link: { href: 'https://postal.wiki', label: 'Postal Wiki' },
     logo: jianyuelab,
   },
+  {
+    name: '图床',
+    description:
+      'Picture Management',
+    link: { href: 'https://pic.eke.vin', label: 'pic.eke.vin'},
+    logo: jianyuelab,
+  }
 ]
 
 function LinkIcon(props) {
@@ -34,7 +41,7 @@ export default function Projects() {
         <title>Projects - JianyueHugo</title>
       </Head>
       <SimpleLayout
-        title="Things I provide and make by myself"
+        title="Things I provide or made by myself"
         intro="Some open source projects from other developers and I put it into service. Also some project made by my own or translated it "
       >
         <ul
