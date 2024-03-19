@@ -111,10 +111,7 @@ function Resume() {
       title: 'Student',
       logo: kojimachi,
       start: '2022',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
+      end: '2024',
     },
     {
       company: 'Shanghai Shangde Experimental School',
