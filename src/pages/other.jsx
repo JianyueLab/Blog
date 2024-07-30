@@ -59,7 +59,7 @@ export default function Uses() {
             <Tool title="DIY PC">
               CPU: AMD R7 5700X; <br />
               GPU: ZOTAC NIVIDA RTX 4060; <br />
-              RAM: KINGBANK 16G*2 3600Hz; <br />
+              RAM: Crosshair 16G*2 3600Hz; <br />
               SSD: SAMSUNG 980 1T*2; <br />
               POWER: Super Flower 750W; <br />
               MotherBoard: MSI MPG B550 GAMING PLUS <br />
@@ -75,7 +75,7 @@ export default function Uses() {
             <Tool title="TEST & TRAINING SERVER">
               CPU: AMD R5 5600X; <br />
               GPU: NVIDIA 1650 SUPER; <br />
-              RAM: KINGBANK 16g*1 3600Hz; <br />
+              RAM: KINGBANK 16g*2 3600Hz; <br />
               SSD: SAMSUNG 980 1T; <br />
               POWER: TT sfx 550W; <br />
               MOTHERBOARD: ASROCK B550M PRO 4 <br />
@@ -94,10 +94,13 @@ export default function Uses() {
             <Tool title="Visual Studio Code">
               Easy app for project
             </Tool>
+            <Tool title="JetBrains Set">
+              Powerful apps
+            </Tool>
           </ToolsSection> 
           <ToolsSection title="Links">
             <Appearance
-              href="https://jianyuelab.net"
+              href="https://awa.ms/zhblog"
               title="My Chinese Blog"
               description="Chinese BLOG!!!!!!"
               cta="Link"
