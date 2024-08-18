@@ -11,6 +11,7 @@ import {
   TelegramIcon,
   TwitterIcon,
   AfdianIcon,
+  LinkedInIcon
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
@@ -78,13 +79,13 @@ export default function About() {
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="https://twitter.com/jianyuehugo" icon={TwitterIcon}>
+              <SocialLink href="https://www.linkedin.com/in/jianyuehugoliang/" icon={LinkedInIcon}>
+                Contact on LinkedIn
+              </SocialLink>
+              <SocialLink href="https://twitter.com/jianyuehugo" icon={TwitterIcon} className="mt-4">
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href="https://discord.gg/YRf2RAWwcp" icon={DiscordIcon} className="mt-4">
-                Contact on Discord
-              </SocialLink>
-              <SocialLink href="https://t.me/jianyuehugo" icon={TelegramIcon} className="mt-4">
+              <SocialLink href="https://t.me/valorunknown" icon={TelegramIcon} className="mt-4">
                 Contact on Telegram
               </SocialLink>
               <SocialLink href="https://www.instagram.com/jianyuehugo/" icon={InstagramIcon} className="mt-4">
@@ -92,6 +93,9 @@ export default function About() {
               </SocialLink>
               <SocialLink href="https://github.com/JianyueLab" icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
+              </SocialLink>
+              <SocialLink href="https://discord.gg/YRf2RAWwcp" icon={DiscordIcon} className="mt-4">
+                Join Discord Server
               </SocialLink>
               <SocialLink href="https://afdian.net/a/JianyueHugo" icon={AfdianIcon} className="mt-4">
                 Donate on Afdian
@@ -108,7 +112,7 @@ export default function About() {
                 icon={MailIcon}
                 className="mt-4"
               >
-                valor@jianyuelab.cc
+                valor@jianyuelab.cc (Only for technologies related)
               </SocialLink>
             </ul>
           </div>
