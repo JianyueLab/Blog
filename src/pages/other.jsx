@@ -100,8 +100,8 @@ export default function Uses() {
           </ToolsSection> 
           <ToolsSection title="Links">
             <Appearance
-              href="#"
-              title="My Chinese Blog (Closed)"
+              href="https://jianyuehugo.top"
+              title="My Chinese Blog"
               description="Chinese BLOG!!!!!!"
               cta="Link"
             />
