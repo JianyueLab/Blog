@@ -108,11 +108,11 @@ export default function About() {
                 contact@jianyuehugo.com
               </SocialLink>
               <SocialLink
-                href="mailto:valor@jianyuelab.cc"
+                href="mailto:valor@jianyuelab.org"
                 icon={MailIcon}
                 className="mt-4"
               >
-                valor@jianyuelab.cc (Only for technologies related)
+                valor@jianyuelab.org (Only for technologies related)
               </SocialLink>
             </ul>
           </div>
