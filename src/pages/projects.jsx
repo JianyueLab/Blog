@@ -15,10 +15,10 @@ const projects = [
     logo: jianyuelab,
   },
   {
-    name: '图床',
+    name: 'Picture',
     description:
       'Picture Management',
-    link: { href: 'https://pic.eke.vin', label: 'pic.eke.vin'},
+    link: { href: 'https://pic.awa.ms', label: 'pic.awa.ms'},
     logo: jianyuelab,
   }
 ]

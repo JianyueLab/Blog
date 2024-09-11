@@ -36,28 +36,12 @@ export default function Speaking() {
         intro="If you look around on the Internet, there are too many goods things and nobody is sharing them. Here you can find a lot of useful information."
       >
         <div className="space-y-20">
-          <SpeakingSection title="Minecraft">
-            <Appearance
-              href="https://www.mcbbs.net/thread-1367720-1-1.html"
-              title="EssentialX WIKI——中文翻译版"
-              description="TecoStudio出品, EssentialX 中文WIKI"
-              event="MCBBS —— CHINESE MINECRAFT FORUM"
-              cta="Link"
-            />
-            <Appearance
-              href="https://www.mcbbs.net/thread-1355338-1-1.html"
-              title="《红石理论》"
-              description="TecoStudio出品, 如何使用红石技术"
-              event="MCBBS —— CHINESE MINECRAFT FORUM"
-              cta="Link"
-            />
-          </SpeakingSection>
           <SpeakingSection title="Links">
             <Appearance
               href="https://inuebisu.cn/"
               title="inuBlog"
               description="inuEbisu's Blog"
-              event="My Best Friends"
+              event="My Friends"
               cta="Link"
             />
             <Appearance

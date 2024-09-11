@@ -6,20 +6,21 @@ import clsx from 'clsx'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
-  GitHubIcon,
-  InstagramIcon,
-  TwitterIcon,
-  TelegramIcon,
-  DiscordIcon,
-  AfdianIcon,
+    GitHubIcon,
+    InstagramIcon,
+    TwitterIcon,
+    TelegramIcon,
+    DiscordIcon,
+    AfdianIcon,
+    LinkedInIcon,
 } from '@/components/SocialIcons'
 import ib from '@/images/logos/ib.png'
 import kojimachi from '@/images/logos/kojimachi.png'
-import teco from '@/images/logos/teco.png'
 import nic from '@/images/logos/nic.png'
 import image1 from '@/images/photos/image_1.png'
 import image2 from '@/images/photos/banner.jpg'
 import image3 from '@/images/photos/image_2.png'
+import image4 from '@/images/photos/image_3.jpeg'
 import { formatDate } from '@/lib/formatDate'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -145,7 +146,7 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image3 ,image2].map((image, imageIndex) => (
+        {[image1, image3, image4, image2].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
@@ -175,7 +176,7 @@ export default function Home({ articles }) {
         </title>
         <meta
           name="description"
-          content="I am JianyueHugo, aka Valor, a student and a developer in Japan."
+          content="I am Jianyue Hugo Liang, aka Valor, a student and a developer in Japan."
         />
       </Head>
       <Container className="mt-9">
@@ -184,7 +185,7 @@ export default function Home({ articles }) {
             Developer, Translator and Student
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I am JianyueHugo, a.k.a. JianyueLab, Valor, 16 y.o., a student and a developer in Japan.
+            I am Jianyue Hugo Liang, a.k.a. JianyueLab, Valor, 16 y.o., a student and a developer in Japan.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -216,6 +217,11 @@ export default function Home({ articles }) {
               href="https://afdian.net/a/JianyueHugo"
               aria-label="Donate on Afdian"
               icon={AfdianIcon}
+            />
+            <SocialLink
+                href="https://www.linkedin.com/in/jianyuehugoliang/"
+                aria-label="Contact on LinkedIn"
+                icon={LinkedInIcon}
             />
           </div>
         </div>

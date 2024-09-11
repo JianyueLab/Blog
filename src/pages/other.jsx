@@ -25,7 +25,7 @@ function Tool({ title, href, children }) {
   )
 }
 
-function Appearance({ title, description, event, cta, href }) {
+function Appearance({ title, description, cta, href }) {
   return (
     <Card as="article">
       <Card.Title as="h3" href={href}>
@@ -53,8 +53,11 @@ export default function Uses() {
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
-            <Tool title="Macbook Pro 2019 16 inch">
-              I love using the MacBook, it gives me a lot of convenience and makes me more productive. I really recommend having your own MacBook.
+            <Tool title="Macbook Pro M3 14 inch">
+              A pro laptop for development and other needs.
+            </Tool>
+            <Tool title="Macbook Air M2 13 inch">
+               School laptop, a solution for daily school works.
             </Tool>
             <Tool title="DIY PC">
               CPU: AMD R7 5700X; <br />
@@ -84,10 +87,13 @@ export default function Uses() {
               Mouse: RAZER VIPER ULTIMATE; <br />
               Keyboard: ASUS ROG AZOTH BLACK; <br />
               MONITOR: DELL 24 GAMING MONITOR; <br />
-              HEADPHONE: RAZER KRAKEN V3 <br />
+              HEADPHONE: RAZER KRAKEN V3 / AirPods Pro<br />
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
+            <Tool title="Typora">
+              A power app for notes and document.
+            </Tool>
             <Tool title="Sublime Text 4">
               Nice and good to use.
             </Tool>
