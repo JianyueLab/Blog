@@ -71,7 +71,7 @@ function SocialLink({ icon: Icon, ...props }) {
   )
 }
 
-function Study() {
+function Education() {
   let resume = [
     {
       company: 'NUCB International College',
@@ -100,7 +100,7 @@ function Study() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Study</span>
+        <span className="ml-3">Education</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
@@ -109,7 +109,7 @@ function Study() {
               <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
             </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
-              <dt className="sr-only">Study</dt>
+              <dt className="sr-only">Education</dt>
               <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
                 {role.company}
               </dd>
@@ -235,7 +235,7 @@ export default function Home({ articles }) {
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Study />
+            <Education />
           </div>
         </div>
       </Container>
