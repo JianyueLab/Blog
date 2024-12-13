@@ -41,7 +41,7 @@ export default function Uses() {
   return (
     <>
       <Head>
-        <title>Other - JianyueHugo</title>
+        <title>Other - JHL</title>
         <meta
           name="description"
           content="Things I recommend and some links of my friends"

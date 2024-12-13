@@ -172,7 +172,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          JianyueHugo
+          JHL
         </title>
         <meta
           name="description"
@@ -214,7 +214,7 @@ export default function Home({ articles }) {
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://afdian.net/a/JianyueHugo"
+              href="https://afdian.com/a/JianyueHugo"
               aria-label="Donate on Afdian"
               icon={AfdianIcon}
             />

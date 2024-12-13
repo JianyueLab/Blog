@@ -44,7 +44,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - JianyueHugo</title>
+        <title>About - JHL</title>
       </Head>
       <Container className="mt-16 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
@@ -97,7 +97,7 @@ export default function About() {
               <SocialLink href="https://discord.gg/YRf2RAWwcp" icon={DiscordIcon} className="mt-4">
                 Join Discord Server
               </SocialLink>
-              <SocialLink href="https://afdian.net/a/JianyueHugo" icon={AfdianIcon} className="mt-4">
+              <SocialLink href="https://afdian.com/a/JianyueHugo" icon={AfdianIcon} className="mt-4">
                 Donate on Afdian
               </SocialLink>
               <SocialLink

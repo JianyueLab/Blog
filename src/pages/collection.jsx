@@ -29,7 +29,7 @@ export default function Speaking() {
   return (
     <>
       <Head>
-        <title>Collections - JianyueHugo</title>
+        <title>Collections - JHL</title>
       </Head>
       <SimpleLayout
         title="Some things are important and useful"

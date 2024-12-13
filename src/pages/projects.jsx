@@ -38,7 +38,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - JianyueHugo</title>
+        <title>Projects - JHL</title>
       </Head>
       <SimpleLayout
         title="Things I provide or made by myself"
