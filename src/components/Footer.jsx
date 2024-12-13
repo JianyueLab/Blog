@@ -28,7 +28,7 @@ export function Footer() {
                 <NavLink href="https://awa.ms/privacy-policy">Privacy Policy</NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                Copyright &copy; 2023 - {new Date().getFullYear()} Jianyue Hugo Liang. All rights reserved.
+                &copy; 2023 - {new Date().getFullYear()} Jianyue Hugo Liang. All rights reserved.
               </p>
             </div>
           </Container.Inner>
